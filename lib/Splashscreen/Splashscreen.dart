@@ -1,3 +1,5 @@
+// ignore_for_file: sort_child_properties_last
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -36,18 +38,12 @@ class _MySplashScreenState extends State<MySplashScreen> {
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
+            // ignore: prefer_const_literals_to_create_immutables
             children: [
-              FadeIn(
-                child: Text(
-                  "Flux",
-                  style: TextStyle(
-                      fontSize: 40,
-                      fontFamily: 'Oxygen',
-                      color: Colors.blue,
-                      fontWeight: FontWeight.bold),
-                ),
-                duration: Duration(milliseconds: 1500),
-                curve: Curves.easeIn,
+              Image.asset(
+                'images/logo.png',
+                width: 100,
+                height: 100,
               ),
             ],
           ),
