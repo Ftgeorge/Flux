@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "469052832978",
+    "project_id": "flux-notes-364dc",
+    "storage_bucket": "flux-notes-364dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469052832978:android:398d76a60ef340c2ecc10b",
+        "android_client_info": {
+          "package_name": "com.example.flux"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469052832978-leaij01p99a56tir3hk9vde1gdtf4r51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs21qdewxsaisXt2w9GaO9q1fdWBDZbXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469052832978-leaij01p99a56tir3hk9vde1gdtf4r51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
